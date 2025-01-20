@@ -12,12 +12,17 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@remotion/cli": "4.0.126",
+    "@remotion/transitions": "^4.0.126",
+    "fs": "^0.0.1-security",
+    "list-files": "^1.1.4",
+    "lodash": "^4.17.21",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "remotion": "4.0.126"
   },
   "devDependencies": {
     "@remotion/eslint-config": "4.0.126",
+    "@types/lodash": "^4.17.0",
     "@types/react": "^18.0.26",
     "@types/web": "^0.0.86",
     "eslint": "^8.43.0",
