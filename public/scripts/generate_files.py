@@ -89,6 +89,10 @@ def scrape_official_charts(save_index, artist):
   else:
       print(f"Failed to download the file. Status code: {response.status_code}")
 
+for directory in ["public/generated_images", "public/generated_music"]:
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
 data = []
 with open('public/video_data.txt', encoding='utf-8') as data_file:
   data = [line.strip().split('|') for line in data_file]

@@ -50,6 +50,10 @@ def clean_would_you_rather(line):
   return line[1].strip() + " or " + line[2].strip()
 
 
+for folder in ["questions", "alternatives", "correct"]:
+    if not os.path.exists(f'public/generated_lines/{folder}'):
+        os.makedirs(f'public/generated_lines/{folder}')
+
 with open('public/video_data.txt', encoding='utf-8') as data_file:
   data = [line.strip().split('|') for line in data_file]
 
