@@ -11,7 +11,8 @@ https://www.youtube.com/@Quiz-WorldYT/videos
 2. Run generate_files.py
 3. Run generate_voice_lines.py
 
-In terminal
+In terminal:
+
 4. npm i
 5. npm run start
 6. Adjust parameters in root.tsx as needed
