@@ -1,0 +1,8 @@
+would_music| The Beatles| Queen| 42%| 58%|
+would_rather|Hamburger| Pizza| 68%| 32%|
+guess_emoji| Kit Kat| 🔑🇹😸||
+guess_emoji_img| Kit Kat| 🔑🇹😸||
+trivia| Which country has the union jack in its flag?| New Zealand| Canada| Hong Kong|true| false| false|
+odd_emoji| 👍| 👍| true|
+odd_emoji| 🍬| 🍬| true|
+odd_emoji| 🍭| 🍭| true|
