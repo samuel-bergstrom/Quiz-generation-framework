@@ -5,7 +5,7 @@ import sys
 import html
 from unidecode import unidecode
 
-#Use this to generate trivia
+#Use this to generate trivia, put in data.json
 # https://opentdb.com/
 
 f = open('public/scripts/trivia_generation/data.json')
